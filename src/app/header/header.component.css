@@ -1,0 +1,40 @@
+.header {
+    align-items: center;
+    background: #FFC107;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+    text-align: center;
+    width: 100%;
+}
+
+.header__container {
+    width: 100%;
+}
+
+.header__container__logo {
+    border-radius: 15%;
+    height: 80px;
+    margin-right: .5em;
+    width: 80px;
+}
+
+.header__container__logo-title {
+    color: #fff;
+    font-size: 6.5em;
+    margin: auto;
+    width: 100%;
+}
+
+.header__container__divisor {
+    border-top: 1.5px solid rgba(255, 255, 255, .8);
+    margin: auto;
+    width: 55%;
+}
+
+.header__container__logo-subtitle {
+    color: #fff;
+    font-size: 3.5em;
+    margin: 10px auto;
+    width: 75%;
+}

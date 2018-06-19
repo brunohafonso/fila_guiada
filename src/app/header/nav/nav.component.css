@@ -1,0 +1,36 @@
+.menu-container {
+    background: #212121;
+    line-height: 30px;
+    padding: 5px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.menu-container__menu {
+    font-size: 3em;
+    list-style: none;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: auto;
+    top: 0px;
+}
+
+.menu-container__menu__item {
+    display: inline-block;
+    border-right: 1px solid #fff; 
+    padding: 0px .5em;
+}
+
+.menu-container__menu__item:last-of-type {
+    border-right: 0px;
+}
+
+.menu-container__menu__item__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link--active {
+   border-bottom: 1px solid #fff; 
+}
